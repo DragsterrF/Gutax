@@ -25,7 +25,8 @@ $sqlQueries = [
         id_svaz INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
         email VARCHAR(30) NOT NULL,
         question VARCHAR(35) NOT NULL,
-        otvet VARCHAR(10) NOT NULL,
+        pochta VARCHAR(10) NOT NULL,
+        kabinet VARCHAR(10) NOT NULL,
         gender VARCHAR(10) NOT NULL,
         otzyv VARCHAR(500) NOT NULL
     )"
